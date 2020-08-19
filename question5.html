@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Simon R Pocock">
+        <title>PixelVerse demo</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+            
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/question5.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="mt-5">
+                <div class = "card">
+                    <div class="card-header">
+                        <div class="row">
+                            <img class = "ml-2" src="images/favicon.png" alt="PixelVerse Logo" style="width:64px;height:64px;">
+                            <h2 class="ml-3 mt-3">PixelVerse</h2>
+                        </div> 
+                    </div>
+                    <div class="card-body">
+                        <h3>
+                            Question 5
+                        </h3>
+                        <p>
+                            Are there any trees in the scene?
+                        </p>
+                        <div class="form-group">
+                            <label for="treesBack">Background</label>
+                            <select class="form-control" id="treesBack">
+                                <option value="">None (default)</option>
+                                <option value="DE3">Deciduous (basic trees)</option>
+                                <option value="DA3">Autumn deciduous</option>
+                                <option value="DB3">Bare deciduous</option>
+                                <option value="CO3">Coniferous</option>
+                                <option value="CA3">Cactus</option>
+                                <option value="PA3">Palm</option>
+                                <option value="JU3">Jungle</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="treesMid">Midground</label>
+                            <select class="form-control" id="treesMid">
+                                <option value="">None (default)</option>
+                                <option value="DE2">Deciduous (basic trees)</option>
+                                <option value="DA2">Autumn deciduous</option>
+                                <option value="DB2">Bare deciduous</option>
+                                <option value="CO2">Coniferous</option>
+                                <option value="CA2">Cactus</option>
+                                <option value="PA2">Palm</option>
+                                <option value="JU2">Jungle</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="treesFore">Foreground</label>
+                            <select class="form-control" id="treesFore">
+                                <option value="">None (default)</option>
+                                <option value="DE1">Deciduous (basic trees)</option>
+                                <option value="DA1">Autumn deciduous</option>
+                                <option value="DB1">Bare deciduous</option>
+                                <option value="CO1">Coniferous</option>
+                                <option value="CA1">Cactus</option>
+                                <option value="PA1">Palm</option>
+                                <option value="JU1">Jungle</option>
+                            </select>
+                        </div>
+                        <hr/>
+                        <div>
+                            <button type="button" class="btn btn-primary" id="continue">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-right mt-3 mr-2">
+                <p>Kate Mackenzie 2020</p>
+            </footer> 
+        </div>
+    </body>
+</html>

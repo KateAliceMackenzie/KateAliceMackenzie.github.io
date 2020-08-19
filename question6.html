@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Simon R Pocock">
+        <title>PixelVerse demo</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+            
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/question6.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="mt-5">
+                <div class = "card">
+                    <div class="card-header">
+                        <div class="row">
+                            <img class = "ml-2" src="images/favicon.png" alt="PixelVerse Logo" style="width:64px;height:64px;">
+                            <h2 class="ml-3 mt-3">PixelVerse</h2>
+                        </div> 
+                    </div>
+                    <div class="card-body">
+                        <h3>
+                            Question 6
+                        </h3>
+                        <p>
+                            What about buildings?
+                        </p>
+                        <div class="form-group">
+                            <label for="buildBack">Background</label>
+                            <select class="form-control" id="buildBack">
+                                <option value="">None (default)</option>
+                                <option value="ET3">European town buildings</option>
+                                <option value="AT3">Asian town buildings</option>
+                                <option value="CI3">Urban city</option>
+                                <option value="CG3">Cottage</option>
+                                <option value="FM3">Farm buildings</option>
+                                <option value="SH3">Shanty/ ruined town buildings</option>
+                                <option value="CS3">Castle (select if distant or tall)</option>
+                                <option value="TE3">Temple (select if distant or tall)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="buildMid">Midground</label>
+                            <select class="form-control" id="buildMid">
+                                <option value="">None (default)</option>
+                                <option value="ET2">European town buildings</option>
+                                <option value="AT2">Asian town buildings</option>
+                                <option value="CI2">Urban city</option>
+                                <option value="CG2">Cottage</option>
+                                <option value="FM2">Farm buildings</option>
+                                <option value="SH2">Shanty/ ruined town buildings</option>
+                                <option value="CS2">Castle (select if midground or tall)</option>
+                                <option value="TE2">Temple (select if midground or tall)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="buildFore">Foreground</label>
+                            <select class="form-control" id="buildFore">
+                                <option value="">None (default)</option>
+                                <option value="ET1">European town buildings</option>
+                                <option value="AT1">Asian town buildings</option>
+                                <option value="CI1">Urban city</option>
+                                <option value="CG1">Cottage</option>
+                                <option value="FM1">Farm buildings</option>
+                                <option value="SH1">Shanty/ ruined town buildings</option>
+                                <option value="CS1">Castle</option>
+                                <option value="TE1">Temple</option>
+                                <option value="WM">Windmill</option>
+                                <option value="LH">Lighthouse</option>
+                                <option value="TO">Tower</option>
+                            </select>
+                        </div>
+                        <hr/>
+                        <div>
+                            <button type="button" class="btn btn-primary" id="continue">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-right mt-3 mr-2">
+                <p>Kate Mackenzie 2020</p>
+            </footer> 
+        </div>
+    </body>
+</html>

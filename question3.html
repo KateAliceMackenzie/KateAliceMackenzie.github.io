@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Simon R Pocock">
+        <title>PixelVerse demo</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+            
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/question3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="mt-5">
+                <div class = "card">
+                    <div class="card-header">
+                        <div class="row">
+                            <img class = "ml-2" src="images/favicon.png" alt="PixelVerse Logo" style="width:64px;height:64px;">
+                            <h2 class="ml-3 mt-3">PixelVerse</h2>
+                        </div> 
+                    </div>
+                    <div class="card-body">
+                        <h3>
+                            Question 3
+                        </h3>
+                        <p>
+                            What topography is described?
+                        </p>
+                        <div class="form-group">
+                            <label for="topoBack">Background</label>
+                            <select class="form-control" id="topoBack">
+                                <option value="FL3">Flat (default)</option>
+                                <option value="HI3">Hills</option>
+                                <option value="MT3">Mountains</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="topoMid">Midground</label>
+                            <select class="form-control" id="topoMid">
+                                <option value="FL2">Flat (default)</option>
+                                <option value="HI2">Hills</option>
+                                <option value="MT2">Mountains</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="treesFore">Foreground</label>
+                            <select class="form-control" id="topoFore">
+                                <option value="FL1">Flat (default)</option>
+                                <option value="HI1">Hills</option>
+                                <option value="MT1">Mountains</option>
+                            </select>
+                        </div>
+                        <hr/>
+                        <div>
+                            <button type="button" class="btn btn-primary" id="continue">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-right mt-3 mr-2">
+                <p>Kate Mackenzie 2020</p>
+            </footer> 
+        </div>
+    </body>
+</html>

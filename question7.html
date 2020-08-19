@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Simon R Pocock">
+        <title>PixelVerse demo</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+            
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/question7.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="mt-5">
+                <div class = "card">
+                    <div class="card-header">
+                        <div class="row">
+                            <img class = "ml-2" src="images/favicon.png" alt="PixelVerse Logo" style="width:64px;height:64px;">
+                            <h2 class="ml-3 mt-3">PixelVerse</h2>
+                        </div> 
+                    </div>
+                    <div class="card-body">
+                        <h3>
+                            Question 7
+                        </h3>
+                        <p>
+                            What is the weather like?
+                        </p>
+                        <div class="form-group">
+                            <label for="clouds">Clouds</label>
+                            <select class="form-control" id="clouds">
+                                <option value="">None (default)</option>
+                                <option value="FC">Some</option>
+                                <option value="MC">Many</option>
+                                <option value="DC">Dark</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="precipitation">Precipitation</label>
+                            <select class="form-control" id="precipitation">
+                                <option value="">None (default)</option>
+                                <option value="RAI">Rain</option>
+                                <option value="SNO">Snow</option>
+                                <option value="BM">Light mist</option>
+                                <option value="FMI">Heavy mist</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="precipitation">Birds</label>
+                            <select class="form-control" id="birds">
+                                <option value="">None (default)</option>
+                                <option value="BIR">Birds</option>
+                            </select>
+                        </div>
+                        <hr/>
+                        <div>
+                            <button type="button" class="btn btn-primary" id="continue">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-right mt-3 mr-2">
+                <p>Kate Mackenzie 2020</p>
+            </footer> 
+        </div>
+    </body>
+</html>
